@@ -7,6 +7,8 @@ such that range num1 num2 returns an ordered list of all integers from num1 to n
 let rec range num1 num2 =
   (* YOUR CODE HERE *)
 assert (range 2 5 = [2;3;4;5])
+
+
 Problem 2
 Write a function
 
@@ -16,6 +18,8 @@ that flattens a list. For example, flatten [[1;2];[4;3]] = [1;2;4;3].
 let rec flatten l =
   (* YOUR CODE HERE *)
 assert (flatten ([[1;2];[4;3]]) = [1;2;4;3])
+
+
 Problem 3
 Write a function
 
@@ -25,6 +29,8 @@ that removes stuttering from the original list. For example, remove_stutter [1;2
 let remove_stutter l =
   (* YOUR CODE HERE *)
 assert (remove_stutter [1;2;2;3;1;1;1;4;4;2;2] = [1; 2; 3; 1; 4; 2])
+
+
 Problem 4 (3 questions)
 Set Implementation using Lists
 
@@ -85,6 +91,8 @@ let rec diff a b =
 assert (eq (diff [1;3;2] [2;3]) [1]);
 assert (eq (diff ['a';'b';'c';'d'] ['a';'e';'i';'o';'u']) ['b';'c';'d']);
 assert (eq (diff ["hello";"ocaml"] ["hi";"python"]) ["hello";"ocaml"]);
+
+
 Problem 5 (3 questions)
 Write an OCaml function
 
