@@ -149,6 +149,8 @@ Test-cases
 true.
 true.
 X = [ 1, 2, 3, 4, 5, 6 ] .
+
+
 Problem 8
 Implement predicate mergesort(L,SL) where SL is the sorted version of L, and L is fully-instantiated. Use the predicate partition to partition the list L into two segments, sort each on separately (using mergesort) and combine the individual sorted list using merge.
 
